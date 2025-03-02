@@ -6,22 +6,22 @@ const teamMembers = [
   {
     name: "Noa Yaakov",
     position: "Software Engineer",
-    image: "/lovable-uploads/d1ed56dc-1c5c-4242-8647-b339b376f014.png"
+    image: "/lovable-uploads/noa.png"
   },
   {
     name: "Ivgeni Kucherov",
     position: "Senior Computer and AI Engineer at Nvidia",
-    image: "/lovable-uploads/d1ed56dc-1c5c-4242-8647-b339b376f014.png"
+    image: "/lovable-uploads/ivgeni.png"
   },
   {
     name: "Shir Papo",
     position: "Lawyer, with extensive marketing experience",
-    image: "/lovable-uploads/d1ed56dc-1c5c-4242-8647-b339b376f014.png"
+    image: "/lovable-uploads/shir.png"
   },
   {
     name: "Nir Shilo",
     position: "Voice Technologies Expert & Business Strategy",
-    image: "/lovable-uploads/d1ed56dc-1c5c-4242-8647-b339b376f014.png"
+    image: "/lovable-uploads/nir.png"
   }
 ];
 
