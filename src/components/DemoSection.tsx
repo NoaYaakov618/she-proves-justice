@@ -42,7 +42,7 @@ const DemoSection: React.FC = () => {
   };
 
   // For demo purposes, we'll use a placeholder video
-  const demoVideoUrl = "https://www.youtube.com/embed/dQw4w9WgXcQ"; // Replace with actual demo video
+  const demoVideoUrl = "https://www.youtube.com/embed/tZ0rhG7R944"
 
   return (
     <section id="demo" ref={sectionRef} className="py-24 bg-beige bg-opacity-30">
