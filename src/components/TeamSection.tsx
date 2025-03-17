@@ -1,12 +1,14 @@
 
 import React, { useRef, useEffect, useState } from 'react';
 import { motion, useAnimation } from 'framer-motion';
+import { Avatar, AvatarImage } from './ui/avatar';
 
 const teamMembers = [
   {
     name: "Noa Yaakov",
     position: "Co-Founder & CTO",
-    image: "/lovable-uploads/noa.png"
+    image: "/lovable-uploads/noa.png",
+    adjustPosition: true
   },
   {
     name: "Ivgeni Kucherov",
@@ -21,7 +23,8 @@ const teamMembers = [
   {
     name: "Nir Shilo",
     position: "Voice Technologies Expert & Business Strategy",
-    image: "/lovable-uploads/nir.png"
+    image: "/lovable-uploads/nir.png",
+    adjustPosition: true
   }
 ];
 
@@ -98,11 +101,12 @@ const TeamSection: React.FC = () => {
               whileHover={{ y: -5, transition: { duration: 0.2 } }}
               className="team-card-bg rounded-full overflow-hidden border-2 border-beige flex flex-col items-center py-8"
             >
-              <div className="w-48 h-48 rounded-full overflow-hidden mb-6 bg-beige-light border-2 border-white">
+              <div className="w-48 h-48 rounded-full overflow-hidden mb-6 bg-beige-light border-2 border-white relative">
                 <img 
                   src={member.image} 
                   alt={member.name} 
-                  className="w-full h-full object-cover"
+                  className={`w-full h-full object-cover ${member.adjustPosition ? 'object-position-top' : ''}`}
+                  style={member.adjustPosition ? { objectPosition: '0 -15px' } : {}}
                 />
               </div>
               <h3 className="text-xl font-semibold text-teal mb-2">{member.name}</h3>
