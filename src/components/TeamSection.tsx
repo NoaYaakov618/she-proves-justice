@@ -5,17 +5,17 @@ import { motion, useAnimation } from 'framer-motion';
 const teamMembers = [
   {
     name: "Noa Yaakov",
-    position: "Software Engineer",
+    position: "Co-Founder & CTO",
     image: "/lovable-uploads/noa.png"
   },
   {
     name: "Ivgeni Kucherov",
-    position: "Senior Computer and AI Engineer at Nvidia",
+    position: "Co-Founder & CEO",
     image: "/lovable-uploads/ivgeni.png"
   },
   {
     name: "Shir Papo",
-    position: "Lawyer, with extensive marketing experience",
+    position: "Co-Founder & COO",
     image: "/lovable-uploads/shir.png"
   },
   {
