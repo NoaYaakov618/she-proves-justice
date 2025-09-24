@@ -5,9 +5,9 @@ import { Avatar, AvatarImage } from './ui/avatar';
 
 const teamMembers = [
   {
-    name: "Noa Yaakov",
-    position: "Co-Founder & CTO",
-    image: "/lovable-uploads/noa.png",
+    name: "Daniel Meirov",
+    position: "Senior Algorithm Engineer",
+    image: "/lovable-uploads/daniel.jpeg",
     adjustPosition: true
   },
   {
